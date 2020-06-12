@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import Clarifai from "clarifai";
 import ImageSearchForm from "./components/ImageSearchForm/ImageSearchForm";
 import FaceDetect from "./components/FaceDetect/FaceDetect";
+import { KEYS } from "./secret";
 import "./App.css";
 
 // You need to add your own API key here from Clarifai.
 const app = new Clarifai.App({
-  apiKey: "b3aef77b71f6459194e7c52bb7abd863",
+  apiKey: KEYS.CLARIFAI_API_KEY,
 });
 
 class App extends Component {
