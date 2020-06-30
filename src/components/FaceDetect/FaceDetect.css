@@ -1,6 +1,7 @@
 #centering {
   display: flex;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bounding-box {
@@ -10,4 +11,14 @@
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
+}
+
+img {
+  margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    width: 90%;
+  }
 }

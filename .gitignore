@@ -12,7 +12,7 @@
 /build
 
 # Keys
-/src/secret.js
+/src/secret
 
 # misc
 .DS_Store

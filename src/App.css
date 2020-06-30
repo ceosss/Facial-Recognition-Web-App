@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .App-logo {
@@ -11,6 +12,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
 }
 
 .App-header {
@@ -35,4 +41,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: greenyellow;
+}
+
+a {
+  color: red;
+  text-decoration: none;
 }

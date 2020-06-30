@@ -57,6 +57,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1 className="title">FACE DETECTOR</h1>
         <ImageSearchForm
           onInputChange={this.onInputChange}
           onSubmit={this.onSubmit}
@@ -68,6 +69,16 @@ class App extends Component {
             imageUrl={this.state.imageUrl}
           />
         ) : null}
+        <div className="footer">
+          <strong>
+            <h3>
+              MADE WITH 🧡 by{" "}
+              <a href="https://www.instagram.com/ceo.sss/" target="_blank">
+                ceo.sss
+              </a>
+            </h3>
+          </strong>
+        </div>
       </div>
     );
   }
